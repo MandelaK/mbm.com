@@ -1,0 +1,30 @@
+{
+  "name": "mbm.com",
+  "version": "0.1.0",
+  "description": "Website",
+  "main": "index.js",
+  "repository": "git@github.com:MandelaK/mbm.com.git",
+  "author": "Keith <kazi.keith@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "next": "^13.0.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.56.1"
+  },
+  "devDependencies": {
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  }
+}
